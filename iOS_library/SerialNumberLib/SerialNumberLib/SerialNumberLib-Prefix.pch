@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SerialNumberLib' target in the 'SerialNumberLib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

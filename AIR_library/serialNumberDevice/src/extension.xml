@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.8">
+    <id>com.hovanetworks.serialnumber</id>
+    <versionNumber>1</versionNumber>
+    <platforms>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libSerialNumberLib.a</nativeLibrary>
+                <initializer>LNGenericANEInitializer</initializer>
+                <finalizer>LNGenericANEFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>     
+    </platforms>
+</extension>
